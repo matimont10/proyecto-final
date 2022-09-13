@@ -1,0 +1,244 @@
+/* Estilizamos el universo */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* Estilizamos el contenedor global */
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Estilizamos el header */
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8% 7% 1%;
+}
+
+#logo {
+    height: 30%;
+}
+
+.fa-bars{
+    font-size: 40px;
+}
+
+/* Estilizamos el grafico */
+.container-grafico {
+   margin-bottom: 50%;
+}
+
+.container-grafico img {
+    height: 30%;
+    width: 100%;
+}
+
+/* Estilizamos container-bring */
+.conatainer-bring {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+#bring {
+    color: #232C50;
+    font-weight: 900;
+    margin-left: 2%;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5%;
+}
+
+#parrafo-bring {
+    text-align: center;
+    margin: 0 3% 10% 3%;
+}
+
+.btn-get {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #8B48BF;
+    color: #ffffff;
+    margin-bottom: 40%;
+}
+
+/* Estilizamos container-diferent */
+.container-diferent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4%;
+    
+}
+
+#what {
+    color: #232C50;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#parrafo-what {
+    color: #000000;
+    text-align: center;
+    margin: 0 11% 0 11%;
+    margin-bottom: 30%;
+}
+
+/* Estilizamos los articulos */
+.articulos {
+    margin-bottom: 30%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.primer-titulo {
+    
+    align-items: center;
+    width: 480px;
+    height: 28px;
+    background: rgba(139, 72, 191, 0.3);
+    border-radius: 50px 0px 0px 50px;
+    padding-top: 2.5px;
+    padding: 20px;
+}
+
+.num-1::before{
+    content: '01';
+    margin-right: 10px;
+    background-color: #8B48BF;
+    border: 0px solid #5d208c;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.articulos p {
+    margin: 8% 0 8% 3%;
+    color: #B3B2B7;
+}
+
+.num-2::before{
+    content: '02';
+    margin-right: 10px;
+    background-color: #8B48BF;
+    border: 0px solid #5d208c;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+.num-3::before{
+    content: '03';
+    margin-right: 10px;
+    background-color: #8B48BF;
+    border: 0px solid #5d208c;
+    padding: 10px 25px;
+    border-radius: 50px;
+    color: #FFFFFF;
+}
+
+/* Estilizamos personas */
+.articles-personas h3 {
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 20%;
+    display: flex;
+}
+
+.articles-personas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.img-person{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen-oculta{
+    display: none;
+}
+
+/* Estilizamos Ali */
+.ali-card{
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.ali-card h4{
+   margin: 15% 0 5% 0;
+}
+
+.cartas-img{
+    position: relative;
+    top: 2em;
+}
+
+.words {
+    text-align: center;
+    margin: 0 3% 0 3%;
+}
+
+.btn-get-ali {
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: #8B48BF;
+    color: #ffffff;
+    margin: 15% 0 35% 34%;
+}
+/* Estilizamos Anisha */
+.anisha-card {
+    display: none;
+}
+
+/* Estilizamos a richard */
+.richard-card {
+    display: none;
+}
+
+
+.btn-oculto{
+    display: none;
+}
+
+/* Estilizamos el footer */
+
+/* Estilizamos footer-1 */
+.footer-1 {
+    background-color: #8B48BF;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.footer-1 h4 {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10% 8% 10% 8%;
+    color: #ffffff;
+}
+
