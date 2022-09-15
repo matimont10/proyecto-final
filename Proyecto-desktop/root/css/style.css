@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700&display=swap%27');
+/* Estilizamos el univreso */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* Estilizamos el Header */
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10% 0 10%; 
+}
+
+.ul-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ul-header li {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10% 0 10%;
+    font-weight: bold;
+}
+
+.btn-get {
+    border-radius: 30px;
+    padding: 20px 40px;
+    border: none;
+    background-color: #8B48BF;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Estilizamos container-1 */
+.container-1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 10%;
+}
+
+.grafico {
+    height: 31em;
+    width: 35%;
+}
+
+.bring {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 15%;
+}
+
+.bring h3 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: start;
+    margin-bottom: 7%;
+}
+
+.bring p {
+    font-weight: 500;
+    margin-bottom: 10%;
+    margin-right: 25%;
+}
+
+/* Estilizamos conainer-2 */
+.container-2 {
+    display: flex;
+    justify-content: center;
+    /* margin: 10%; */
+}
+
+/* Estilizamos el DIV what */
+.what {
+    width: 28%;
+    margin-right: 8%;
+}
+
+.what h4 {
+    font-size: 36px;
+    margin-bottom: 5%;
+}
+
+.what p {
+    font-weight: 500;
+}
+
+/* Estilizamos el DIV container-articles */
+.container-articles {
+    width: 35em;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-art {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+    border-radius: 20px 0 0 20px;
+}
+
+.title-art p {
+    padding: 2% 5%;
+    margin-right: 6%;
+    background-color: #8B48BF;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.title-art h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.word {
+    color: #B3B2B7;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+/* Estilizamos title-persona */
+.title-persona {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-right: 3%;
+}
+
+/* Estilizamos container-personas */
+.container-personas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: aqua; */
+    height: 35vh;
+    /* margin-bottom: 5%; */
+}
+
+/* ali */
+.ali {
+    /* background-color: #FAFAFA; */
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4%;
+    height: 30vh;
+}
+
+.ali h5 {
+    font-size: 16px;
+    margin: 7% 0 3% 0;
+}
+
+.ali p {
+    margin: 0 10% 0 10%;
+    color: #B9B9C1;
+}
+/* anisha */
+.anisha {
+    /* background-color: antiquewhite; */
+    height: 30vh;
+    width: 21%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3.5%;
+}
+
+.anisha h5{
+    font-size: 16px;
+    margin: 7% 0 3% 0;
+}
+
+.anisha p {
+    color: #B9B9C1;
+    text-align: center;
+}
+
+/* richard */
+.richard {
+    /* background-color: #B3B2B7; */
+    width: 23%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3.5%;
+}
+
+.richard h5 {
+    font-size: 16px;
+    margin: 7% 0 3% 0;
+}
+
+.richard p {
+    color: #B9B9C1;
+}
+
+/* Estilizamos btn-personas */
+.btn-personas {
+    display: flex;
+    justify-content: center;
+    padding: 10% 2.3% 10% 0;
+}
+
+/* Estiliamos simplify */
+.simplify {
+    background-color: #8B48BF;
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-simplify {
+    color: #FFFFFF;
+    font-size: 40px;
+    width: 30%;
+}
+
+.btn-get-white {
+    border-radius: 30px;
+    padding: 20px 40px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #8B48BF;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Estilizamos container footer */
+.container-footer {
+    background-color: #1E1E26;
+    height: 30vh;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+.container-logo-redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.redes {
+    margin-top: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Estilizamos lista-footer */
+.container-lista-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2.5% 0 2.5%;
+    color: #FFFFFF;
+    width: 30%;
+}
+
+.footer-list li {
+    list-style: none;
+    line-height: 35px;
+    font-size: 14px;
+    
+}
+
+/* Estilizamos formulario-copy */
+.formulario-copy {
+    width: 30%;
+    
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+#inbox {
+    padding: 3% 6% 3% 3%;
+    border-radius: 20px;
+    border: none;
+    margin-right: 3%;
+}
+
+.btn-go {
+    
+}
+
+.copy {
+    margin: 15% 0 0 20%;
+    color: #8C8C94;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.btn-get:hover {
+    background-color: #7b069e;
+}
+
+.btn-get-white:hover {
+    background-color: #dadadf;
+}
